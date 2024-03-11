@@ -87,4 +87,9 @@ fun GreetingCard(modifier: Modifier = Modifier) {
         modifier = Modifier.fillMaxWidth(),
         verticalArrangement = Arrangement.Bottom,
         horizontalAlignment = Alignment.CenterHorizontally
-    )
+    ) {
+        Row (
+            modifier = modifier
+                .fillMaxWidth(),
+            horizontalArrangement = Arrangement.Center,
+            verticalAlignment = Alignment.CenterVertically
