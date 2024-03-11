@@ -64,3 +64,12 @@ fun GreetingCard(modifier: Modifier = Modifier) {
                     .size(100.dp)
             )
         }
+        Text(
+            text = "Savchuk Andriy",
+            style = androidx.compose.ui.text.TextStyle(
+                fontSize = 18.sp,
+                fontWeight = FontWeight.Bold
+            ),
+            modifier = Modifier
+                .padding(top = 20.dp)
+        )
