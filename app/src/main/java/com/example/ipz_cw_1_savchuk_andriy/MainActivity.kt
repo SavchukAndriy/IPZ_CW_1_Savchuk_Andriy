@@ -93,3 +93,9 @@ fun GreetingCard(modifier: Modifier = Modifier) {
                 .fillMaxWidth(),
             horizontalArrangement = Arrangement.Center,
             verticalAlignment = Alignment.CenterVertically
+
+        ) {
+            Image(painter = painterResource(id = R.drawable.ic_launcher_background),
+                contentDescription = "image",
+                modifier = Modifier
+                    .size(30.dp)
