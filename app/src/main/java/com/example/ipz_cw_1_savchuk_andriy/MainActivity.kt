@@ -82,3 +82,9 @@ fun GreetingCard(modifier: Modifier = Modifier) {
             modifier = Modifier
                 .padding(top = 20.dp)
         )
+    }
+    Column(
+        modifier = Modifier.fillMaxWidth(),
+        verticalArrangement = Arrangement.Bottom,
+        horizontalAlignment = Alignment.CenterHorizontally
+    )
