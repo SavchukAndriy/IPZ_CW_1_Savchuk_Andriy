@@ -99,3 +99,50 @@ fun GreetingCard(modifier: Modifier = Modifier) {
                 contentDescription = "image",
                 modifier = Modifier
                     .size(30.dp)
+            )
+            Text(
+                text = "+00 (00) 000 000"
+            )
+        }
+        Row (
+            modifier = modifier
+                .fillMaxWidth(),
+            horizontalArrangement = Arrangement.Center,
+            verticalAlignment = Alignment.CenterVertically
+        ) {
+            Image(painter = painterResource(id = R.drawable.ic_launcher_background),
+                contentDescription = "image",
+                modifier = Modifier
+                    .size(30.dp)
+            )
+            Text(
+                text = "@socialmediahandle"
+            )
+        }
+        Row (
+            modifier = modifier
+                .fillMaxWidth(),
+            horizontalArrangement = Arrangement.Center,
+            verticalAlignment = Alignment.CenterVertically
+        ) {
+            Image(painter = painterResource(id = R.drawable.ic_launcher_background),
+                contentDescription = "image",
+                modifier = Modifier
+                    .size(30.dp)
+
+            )
+            Text(
+                text = "email@domail.com"
+            )
+        }
+    }
+
+}
+
+@Preview(showBackground = true)
+@Composable
+fun GreetingPreview() {
+    IPZ_CW_1_Savchuk_AndriyTheme {
+        GreetingCard()
+    }
+}
